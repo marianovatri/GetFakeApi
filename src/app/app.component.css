@@ -1,0 +1,25 @@
+
+.pais {
+        border: 1px solid black;
+        width: 300px;
+        padding: 10px;
+        margin: 10px;
+        background-color: rgb(42, 98, 218);
+        text-align: center;
+        border-radius: 10px;
+    }
+
+h1 {
+    text-align: center;
+    background-color: cornsilk;
+}
+
+
+
+.paises {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   
+}
+
