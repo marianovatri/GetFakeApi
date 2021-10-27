@@ -4,14 +4,20 @@
         width: 300px;
         padding: 10px;
         margin: 10px;
-        background-color: rgb(42, 98, 218);
+        background-color: rgb(49, 137, 209);
         text-align: center;
         border-radius: 10px;
+        overflow:hidden;
     }
+
+	
+.pais:hover {-webkit-transform:scale(0.3);transform:scale(0.1);}
+
+
 
 h1 {
     text-align: center;
-    background-color: cornsilk;
+    background-color: rgb(117, 207, 223);
 }
 
 
@@ -22,4 +28,9 @@ h1 {
     flex-wrap: wrap;
    
 }
+
+
+	
+.pais:hover {-webkit-transform:scale(1.3);transform:scale(1.3);}
+
 

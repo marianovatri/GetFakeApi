@@ -19,10 +19,9 @@
 <h1>Pipes</h1>
 
   
+<p>Precio: {{precio | currency:'EUR':'code': '5.1-1'}}</p>
 
-<p>precio: {{precio | currency:'EUR':'code': '5.1-1'}}</p>
-
-<p>numero: {{numero | number: '1.2-2' }}</p>
+<p>Numero: {{numero | number: '1.2-2' }}</p>
 
 <p>Fecha: {{fechaActual | date:'dd-LLLL-yyyy HH:mm.ss'}}</p>
 
@@ -39,7 +38,7 @@
 <input type="range" min="0" [max]="animales.length" step="1" [(ngModel)]="minimo"> {{minimo}}
 <input type="range" min="0" [max]="animales.length" step="1" [(ngModel)]="maximo"> {{maximo}}
 
-<p>mensaje {{prom | async }}</p>
+<p>Mensaje {{prom | async }}</p>
 
 
 {{ promPosts | async}}

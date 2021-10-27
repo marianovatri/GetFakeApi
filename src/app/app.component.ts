@@ -11,8 +11,6 @@ import { PaisesService } from './paises.service';
 export class AppComponent {
 
   //CurrencyPipe
-  //los pipe se usan para modificar lo que se ve en el html sin modificar las variables
-  // el pipe es " | "
   precio:number;
 
   //decimalpipe
