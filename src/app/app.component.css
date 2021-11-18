@@ -1,7 +1,8 @@
 
 .pais {
+    
         border: 1px solid black;
-        width: 300px;
+        width: 20%;
         padding: 10px;
         margin: 10px;
         background-color: rgb(49, 137, 209);
@@ -22,15 +23,19 @@ h1 {
 
 
 
-.paises {
+.users {
+   
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center
+
    
 }
 
 
 	
 .pais:hover {-webkit-transform:scale(1.3);transform:scale(1.3);}
+
 
 
